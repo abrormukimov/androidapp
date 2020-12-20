@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">androidapp</string>
+    <string name="question_declaration">The Independence Day of Uzbekistan is September 1, 1991</string>
+    <string name="question_declaration1">The day DS was born is January 19</string>
+    <string name="question_declaration2">The day I was born is February 1</string>
+    <string name="question_declaration3">The day my mother was born is December 2</string>
+    <string name="question_declaration4">The day my father was born is January 8</string>
+
+    <string name="true_btn_text">True</string>
+    <string name="false_btn_text">False</string>
+    <string name="correct_answer">That\'s correct</string>
+    <string name="wrong_answer">That\'s incorrect</string>
+    <string name="next_button">Next</string>
+    <string name="prev_button">Previous</string>
+    <string name="guess_the_name">Guess the name</string>
+    <string name="enter_your_name">Enter your name</string>
+</resources>

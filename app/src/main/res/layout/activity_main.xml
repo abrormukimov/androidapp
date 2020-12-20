@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:backgroundTint="@android:color/darker_gray"
+    android:gravity="center"
+    android:background="@android:color/holo_blue_dark"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:src="@drawable/ic_launcher_foreground"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/answer_text_view"
+        android:text="@string/question_declaration"
+        android:padding="8dp"
+        android:layout_marginHorizontal="45dp"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="34dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/true_button"
+            android:backgroundTint="@color/white"
+            android:text="@string/true_btn_text"
+            android:textColor="@color/black"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/false_button"
+            android:backgroundTint="@color/white"
+            android:text="@string/false_btn_text"
+            android:textColor="@color/black"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/previous_button"
+            android:contentDescription="@string/prev_button"
+            android:backgroundTint="@color/white"
+            android:src="@drawable/baseline_keyboard_arrow_left_black_18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageButton
+            android:contentDescription="@string/next_button"
+            android:id="@+id/next_button"
+            android:backgroundTint="@color/white"
+            android:src="@drawable/baseline_keyboard_arrow_right_black_18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
